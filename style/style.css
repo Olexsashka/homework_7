@@ -6,20 +6,20 @@ header{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    white-space: pre;
     letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style: none;
+}
+
+header>li:hover{
+    color: #2196F3;
 }
 
 .list{
     text-decoration:none;
     list-style: none;
-}
-
-.list:hover{
-    color: #2196F3;
 }
 
 .studio{
@@ -30,6 +30,7 @@ header{
     line-height: 16px;
     top: 32px;
     text-decoration: none;
+    color: #212121;
 }
 
 .prtf{
@@ -40,6 +41,7 @@ header{
     line-height: 16px;
     top: 32px;
     text-decoration: none;
+    color:#212121;
 }
 
 .contacts{
@@ -50,6 +52,7 @@ header{
     line-height: 16px;
     top: 32px;
     text-decoration: none;
+    color:#212121;
 }
 
 .logo_all{
@@ -68,10 +71,6 @@ header{
     color: #2196F3;
 }
 
-header li:hover{
-    color: #2196F3;
-}
-
 .mail{
     position: absolute;
     width: 122px;
@@ -80,7 +79,8 @@ header li:hover{
     top: 32px;
     line-height: 16px;
     color: #757575;
-
+    text-decoration: none;
+    list-style: none;
 }
 
 .phone{
@@ -91,7 +91,8 @@ header li:hover{
     top: 32px;
     line-height: 16px;
     color: #757575;
-
+    text-decoration: none;
+    list-style: none;
 }
 
 .main{
