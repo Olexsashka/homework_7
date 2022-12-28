@@ -1,8 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+}
+
 header{
-    background: #FFFFFF;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -10,10 +14,9 @@ header{
     flex-direction: row;
     letter-spacing: 0.02em;
     text-decoration: none;
-    list-style: none;
 }
 
-header>li:hover{
+header a:hover{
     color: #2196F3;
 }
 
