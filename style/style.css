@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 ul{
@@ -7,7 +8,6 @@ ul{
 }
 
 header{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     display: flex;
@@ -27,7 +27,6 @@ header a:hover{
 
 .studio{
     left: 453px;
-    position: absolute;
     width: 122px;
     height: 16px;
     line-height: 16px;
@@ -38,7 +37,6 @@ header a:hover{
 
 .prtf{
     left: 553px;
-    position: absolute;
     width: 122px;
     height: 16px;
     line-height: 16px;
@@ -49,7 +47,6 @@ header a:hover{
 
 .contacts{
     left: 679px;
-    position: absolute;
     width: 122px;
     height: 16px;
     line-height: 16px;
@@ -65,7 +62,6 @@ header a:hover{
     text-decoration: none;
     list-style: none;
     top: 32px;
-    position: absolute;
     line-height: 16px;
     left: 215px;
 }
@@ -75,7 +71,6 @@ header a:hover{
 }
 
 .mail{
-    position: absolute;
     width: 122px;
     height: 16px;
     left: 1078px;
@@ -87,7 +82,6 @@ header a:hover{
 }
 
 .phone{
-    position: absolute;
     width: 122px;
     height: 16px;
     left: 1263px;
@@ -100,13 +94,11 @@ header a:hover{
 
 .main{
     background: #2F303A;
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
 }
 
 main button{
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     background: #2196F3;
@@ -115,20 +107,17 @@ main button{
 }
 
 main h3{
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
 }
 
 main p{
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     color: #757575;
 }
 
 main h2{
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     color: #212121;
@@ -139,7 +128,6 @@ main h2{
 } 
 
 .team h4{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     color: #212121;
@@ -168,7 +156,6 @@ img{
 }
 
 .team p{
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     color: #757575;
@@ -192,14 +179,12 @@ footer a{
 
 footer li:first-child{
     color: #FFFFFF;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
 }
 
 footer li{
     color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     text-decoration: none;
